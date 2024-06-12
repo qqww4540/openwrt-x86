@@ -23,7 +23,7 @@ curl -fsSL  https://raw.githubusercontent.com/sirpdboy/other/master/patch/powero
 curl -fsSL  https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
 
 rm -rf feeds/packages/utils/v2dat
+rm -rf feeds/packages/net/v2ray-geodata
 rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/mosdns
-#rm -rf feeds/luci/applications/luci-app-smartdns && rm -rf feeds/packages/net/smartdns
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone https://github.com/kenzok8/small package/small
