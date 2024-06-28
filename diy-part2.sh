@@ -29,6 +29,5 @@ rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/mosd
 rm -rf feeds/luci/applications/luci-app-smartdns && rm -rf feeds/packages/net/smartdns
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
-git clone https://github.com/qqww4540/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone https://github.com/kenzok8/small package/small
