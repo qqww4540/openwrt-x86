@@ -31,4 +31,3 @@ rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone https://github.com/kenzok8/small package/small
-#git clone -b main --single-branch https://github.com/morytyann/OpenWrt-mihomo package/openWrt-mihomo
